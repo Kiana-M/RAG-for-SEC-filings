@@ -37,6 +37,7 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")  # "gemini" (GEMINI_API_KEY),
 LLM_MODEL = os.getenv("LLM_MODEL") or DEFAULT_LLM_MODELS[LLM_PROVIDER]
 CLAUDE_EFFORT = os.getenv("CLAUDE_EFFORT", "medium")  # low | medium | high | xhigh | max
 LLM_FALLBACK_MODELS = [m for m in os.getenv("LLM_FALLBACK_MODELS", "gemini-3.7-flash,gemini-3.6-flash,gemini-3.5-flash,gemini-flash-lite-latest,gemini-3.1-flash-lite").split(",") if m]
+LLM_TIMEOUT = float(os.getenv("LLM_TIMEOUT", "60"))  # seconds to wait for a Gemini reply before retrying / falling back
 LLM_CACHE = os.getenv("LLM_CACHE", "1") == "1"  # cache responses on disk (identical prompt -> no API call)
 CACHE_DIR = ROOT / "cache"
 JUDGE_PROVIDER = os.getenv("JUDGE_PROVIDER", LLM_PROVIDER)

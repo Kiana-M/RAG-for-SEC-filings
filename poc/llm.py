@@ -32,7 +32,14 @@ def _gemini(model, method, body, tries=8, max_overload=None):
     url = GEMINI_URL.format(model=model, method=method)
     overloads = 0
     for attempt in range(tries):
-        r = httpx.post(url, headers=headers, json=body, timeout=180)
+        try:
+            r = httpx.post(url, headers=headers, json=body, timeout=httpx.Timeout(config.LLM_TIMEOUT, connect=10))
+        except httpx.TransportError as e:  # timeout / dropped connection: treat like an overloaded model
+            overloads += 1
+            if (max_overload and overloads >= max_overload) or attempt == tries - 1:
+                raise Overloaded(f"{model}: {type(e).__name__}") from e
+            print(f"  gemini {model} {type(e).__name__}; retrying")
+            continue
         if r.status_code == 503:
             overloads += 1
             if max_overload and overloads >= max_overload:
@@ -85,7 +92,8 @@ def _complete(provider, model, prompt, system, json_mode, temperature):
             except (Overloaded, QuotaExhausted) as e:
                 if last:
                     raise
-                print(f"  {e if isinstance(e, QuotaExhausted) else m + ' overloaded'}; falling back to {models[i + 1]}")
+                print(f"  {e if isinstance(e, QuotaExhausted) else m + ' overloaded or not responding'}; "
+                      f"falling back to {models[i + 1]}")
         parts = resp.get("candidates", [{}])[0].get("content", {}).get("parts", [])
         return "".join(p.get("text", "") for p in parts if not p.get("thought"))
     if provider == "anthropic":

@@ -111,7 +111,7 @@ def validate_plan(plan, companies):
 def plan_question(question, companies, cov):
     """One LLM call -> validated plan; on invalid JSON or schema, retry once with the error."""
     system = PLANNER_SYSTEM.format(companies=company_table(companies, cov), sections=config.SECTIONS)
-    prompt = f"Question: {question}\nToday: {date.today().isoformat()}"
+    prompt = f"Question: {question}"  # no date: "last N years" is resolved from coverage, and the cache stays valid
     err = None
     for _ in range(2):
         text = llm(prompt if err is None else f"{prompt}\n\nYour previous plan was invalid: {err}. Fix it.",
