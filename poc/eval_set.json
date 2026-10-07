@@ -1,0 +1,416 @@
+[
+ {
+  "type": "example",
+  "question": "What are the primary risk factors facing Apple, Tesla, and JPMorgan, and how do they compare?",
+  "expected_tickers": [
+   "AAPL",
+   "TSLA",
+   "JPM"
+  ],
+  "expected_sections": [
+   "risk_factors"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": true,
+  "id": "exa-00"
+ },
+ {
+  "type": "example",
+  "question": "How has NVIDIA's revenue and growth outlook changed over the last two years?",
+  "expected_tickers": [
+   "NVDA"
+  ],
+  "expected_sections": [
+   "mdna"
+  ],
+  "expected_years": [],
+  "expected_last_n": 2,
+  "expected_comparison": true,
+  "id": "exa-01"
+ },
+ {
+  "type": "example",
+  "question": "What regulatory risks do the major pharmaceutical companies face, and how are they addressing them?",
+  "expected_tickers": [
+   "ABBV",
+   "JNJ",
+   "LLY",
+   "MRK",
+   "PFE"
+  ],
+  "expected_sections": [
+   "risk_factors"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": true,
+  "id": "exa-02"
+ },
+ {
+  "type": "template",
+  "question": "What are the main risk factors for Home Depot and Berkshire Hathaway, and how do they differ?",
+  "expected_tickers": [
+   "HD",
+   "BRK"
+  ],
+  "expected_sections": [
+   "risk_factors"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": true,
+  "template": "What are the main risk factors for {a} and {b}, and how do they differ?",
+  "id": "tem-03"
+ },
+ {
+  "type": "template",
+  "question": "Compare the legal proceedings disclosed by Coca-Cola and RTX.",
+  "expected_tickers": [
+   "KO",
+   "RTX"
+  ],
+  "expected_sections": [
+   "legal"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": true,
+  "template": "Compare the legal proceedings disclosed by {a} and {b}.",
+  "id": "tem-04"
+ },
+ {
+  "type": "template",
+  "question": "How do AMD and Amazon describe their competitive risks?",
+  "expected_tickers": [
+   "AMD",
+   "AMZN"
+  ],
+  "expected_sections": [
+   "risk_factors"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": true,
+  "template": "How do {a} and {b} describe their competitive risks?",
+  "id": "tem-05"
+ },
+ {
+  "type": "template",
+  "question": "What risks do the software companies in the corpus highlight?",
+  "expected_tickers": [
+   "ADBE",
+   "CRM",
+   "MSFT",
+   "ORCL"
+  ],
+  "expected_sections": [
+   "risk_factors"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": true,
+  "template": "industry risks",
+  "id": "tem-06"
+ },
+ {
+  "type": "template",
+  "question": "How did Amazon's revenue change between fiscal 2023 and fiscal 2025?",
+  "expected_tickers": [
+   "AMZN"
+  ],
+  "expected_sections": [
+   "mdna"
+  ],
+  "expected_years": [
+   2023,
+   2025
+  ],
+  "expected_last_n": null,
+  "expected_comparison": true,
+  "template": "revenue change years",
+  "id": "tem-07"
+ },
+ {
+  "type": "template",
+  "question": "How did Coca-Cola's revenue change between fiscal 2023 and fiscal 2025?",
+  "expected_tickers": [
+   "KO"
+  ],
+  "expected_sections": [
+   "mdna"
+  ],
+  "expected_years": [
+   2023,
+   2025
+  ],
+  "expected_last_n": null,
+  "expected_comparison": true,
+  "template": "revenue change years",
+  "id": "tem-08"
+ },
+ {
+  "type": "template",
+  "question": "How did Tesla's revenue change between fiscal 2023 and fiscal 2025?",
+  "expected_tickers": [
+   "TSLA"
+  ],
+  "expected_sections": [
+   "mdna"
+  ],
+  "expected_years": [
+   2023,
+   2025
+  ],
+  "expected_last_n": null,
+  "expected_comparison": true,
+  "template": "revenue change years",
+  "id": "tem-09"
+ },
+ {
+  "type": "template",
+  "question": "How has Pfizer's operating margin evolved over the last two years?",
+  "expected_tickers": [
+   "PFE"
+  ],
+  "expected_sections": [
+   "mdna"
+  ],
+  "expected_years": [],
+  "expected_last_n": 2,
+  "expected_comparison": true,
+  "template": "margin last two years",
+  "id": "tem-10"
+ },
+ {
+  "type": "template",
+  "question": "What cybersecurity risks does Salesforce describe in its latest annual report?",
+  "expected_tickers": [
+   "CRM"
+  ],
+  "expected_sections": [
+   "risk_factors"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": false,
+  "template": "What cybersecurity risks does {a} describe in its latest annual report?",
+  "id": "tem-11"
+ },
+ {
+  "type": "template",
+  "question": "What legal proceedings is Adobe involved in according to its latest 10-K?",
+  "expected_tickers": [
+   "ADBE"
+  ],
+  "expected_sections": [
+   "legal"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": false,
+  "template": "What legal proceedings is {a} involved in according to its latest 10-K?",
+  "id": "tem-12"
+ },
+ {
+  "type": "synthetic",
+  "question": "What operational challenges and regulatory compliance issues does Amazon.com Inc identify in its Q3 FY2023 10-Q regarding its inventory management and customer payment systems?",
+  "expected_tickers": [
+   "AMZN"
+  ],
+  "expected_sections": [
+   "risk_factors"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": null,
+  "gold_chunk": "AMZN-10-Q-2023-Q3-risk_factors-9",
+  "id": "syn-13"
+ },
+ {
+  "type": "synthetic",
+  "question": "In its FY2023 10-K, what business and financial impacts does BlackRock warn could occur if the company fails to follow client-mandated contractual instructions, and which major regulatory authorities conduct examinations of its business?",
+  "expected_tickers": [
+   "BLK"
+  ],
+  "expected_sections": [
+   "risk_factors"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": null,
+  "gold_chunk": "BLK-10-K-2023-FY-risk_factors-23",
+  "id": "syn-14"
+ },
+ {
+  "type": "synthetic",
+  "question": "In its FY2025 10-K, how does Lockheed Martin Corporation estimate that a 0.25 percentage point shift in its discount rate would affect its year-end pension liabilities and its projected pension costs for the upcoming year?",
+  "expected_tickers": [
+   "LMT"
+  ],
+  "expected_sections": [
+   "mdna"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": null,
+  "gold_chunk": "LMT-10-K-2025-FY-mdna-27",
+  "id": "syn-15"
+ },
+ {
+  "type": "synthetic",
+  "question": "According to Tesla's Q3 FY2022 10-Q, what are the company's projected annual investment outlays for the near term, and what are its specific spending obligations for its production facilities in New York and Shanghai?",
+  "expected_tickers": [
+   "TSLA"
+  ],
+  "expected_sections": [
+   "mdna"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": null,
+  "gold_chunk": "TSLA-10-Q-2022-Q3-mdna-14",
+  "id": "syn-16"
+ },
+ {
+  "type": "synthetic",
+  "question": "In its FY2022 10-K, how does Johnson & Johnson explain the year-over-year increase in its total outstanding borrowings at the end of 2022?",
+  "expected_tickers": [
+   "JNJ"
+  ],
+  "expected_sections": [
+   "mdna"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": null,
+  "gold_chunk": "JNJ-10-K-2022-FY-mdna-17",
+  "id": "syn-17"
+ },
+ {
+  "type": "synthetic",
+  "question": "In its FY2022 10-K, how does Alphabet Inc. evaluate the significance of Sundar Pichai's leadership to its strategic goals, and what difficulties does it anticipate in preserving its corporate environment while transitioning to hybrid work setups?",
+  "expected_tickers": [
+   "GOOG"
+  ],
+  "expected_sections": [
+   "risk_factors"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": null,
+  "gold_chunk": "GOOG-10-K-2022-FY-risk_factors-18",
+  "id": "syn-18"
+ },
+ {
+  "type": "synthetic",
+  "question": "What are the typical warranty durations and terms that Advanced Micro Devices Inc. provides to its customers, as outlined in its FY2025 10-K?",
+  "expected_tickers": [
+   "AMD"
+  ],
+  "expected_sections": [
+   "business"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": null,
+  "gold_chunk": "AMD-10-K-2025-FY-business-8",
+  "id": "syn-19"
+ },
+ {
+  "type": "synthetic",
+  "question": "How does JPMorgan Chase explain the valuation inputs for switches and forward prices, and what details does it provide regarding the rollforward of level 3 recurring fair value measurements in its FY2025 10-K?",
+  "expected_tickers": [
+   "JPM"
+  ],
+  "expected_sections": [
+   "mdna"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": null,
+  "gold_chunk": "JPM-10-K-2025-FY-mdna-175",
+  "id": "syn-20"
+ },
+ {
+  "type": "synthetic",
+  "question": "In its Q2 FY2026 10-Q, how does NVIDIA describe the potential consequences to its distribution network and global sales if the U.S. government broadens trade restrictions on its gaming processors?",
+  "expected_tickers": [
+   "NVDA"
+  ],
+  "expected_sections": [
+   "risk_factors"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": null,
+  "gold_chunk": "NVDA-10-Q-2026-Q2-risk_factors-6",
+  "id": "syn-21"
+ },
+ {
+  "type": "synthetic",
+  "question": "In its FY2022 10-K, how does Microsoft define its primary corporate mission and its strategic focus areas for technological innovation, particularly regarding cloud infrastructure and virtual environments?",
+  "expected_tickers": [
+   "MSFT"
+  ],
+  "expected_sections": [
+   "business"
+  ],
+  "expected_years": [],
+  "expected_last_n": null,
+  "expected_comparison": null,
+  "gold_chunk": "MSFT-10-K-2022-FY-business-0",
+  "id": "syn-22"
+ },
+ {
+  "type": "unanswerable",
+  "question": "How did Cisco Systems Inc's revenue change between fiscal 2021 and fiscal 2022?",
+  "expected_tickers": [
+   "CSCO"
+  ],
+  "expected_sections": [
+   "mdna"
+  ],
+  "expected_years": [
+   2021,
+   2022
+  ],
+  "expected_last_n": null,
+  "expected_comparison": true,
+  "id": "una-23"
+ },
+ {
+  "type": "unanswerable",
+  "question": "How did Merck & Co Inc's revenue change between fiscal 2020 and fiscal 2021?",
+  "expected_tickers": [
+   "MRK"
+  ],
+  "expected_sections": [
+   "mdna"
+  ],
+  "expected_years": [
+   2020,
+   2021
+  ],
+  "expected_last_n": null,
+  "expected_comparison": true,
+  "id": "una-24"
+ },
+ {
+  "type": "unanswerable",
+  "question": "How did Costco Wholesale Corporation's revenue change between fiscal 2021 and fiscal 2022?",
+  "expected_tickers": [
+   "COST"
+  ],
+  "expected_sections": [
+   "mdna"
+  ],
+  "expected_years": [
+   2021,
+   2022
+  ],
+  "expected_last_n": null,
+  "expected_comparison": true,
+  "id": "una-25"
+ }
+]

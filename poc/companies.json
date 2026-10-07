@@ -1,0 +1,598 @@
+{
+  "AAPL": {
+    "name": "Apple Inc",
+    "cik": "0000320193",
+    "sector": "Information Technology",
+    "industry": "Consumer electronics",
+    "aliases": [
+      "Apple"
+    ],
+    "fiscal_year_end": "09-27"
+  },
+  "ABBV": {
+    "name": "AbbVie Inc",
+    "cik": "0001551152",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals",
+    "aliases": [
+      "AbbVie"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "ADBE": {
+    "name": "Adobe Inc",
+    "cik": "0000796343",
+    "sector": "Information Technology",
+    "industry": "Software",
+    "aliases": [
+      "Adobe",
+      "Adobe Systems"
+    ],
+    "fiscal_year_end": "11-28"
+  },
+  "AMD": {
+    "name": "Advanced Micro Devices Inc",
+    "cik": "0000002488",
+    "sector": "Information Technology",
+    "industry": "Semiconductors",
+    "aliases": [
+      "AMD",
+      "Advanced Micro Devices"
+    ],
+    "fiscal_year_end": "12-27"
+  },
+  "AMZN": {
+    "name": "Amazon.com Inc",
+    "cik": "0001018724",
+    "sector": "Consumer Discretionary",
+    "industry": "Internet retail and cloud",
+    "aliases": [
+      "Amazon",
+      "Amazon.com",
+      "AWS"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "AXP": {
+    "name": "American Express Company",
+    "cik": "0000004962",
+    "sector": "Financials",
+    "industry": "Consumer finance and payments",
+    "aliases": [
+      "American Express",
+      "Amex"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "BA": {
+    "name": "The Boeing Company",
+    "cik": "0000012927",
+    "sector": "Industrials",
+    "industry": "Aerospace and defense",
+    "aliases": [
+      "Boeing"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "BAC": {
+    "name": "Bank of America Corporation",
+    "cik": "0000070858",
+    "sector": "Financials",
+    "industry": "Banking",
+    "aliases": [
+      "Bank of America",
+      "BofA",
+      "BankAmerica"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "BLK": {
+    "name": "BlackRock Inc",
+    "cik": "0001364742",
+    "sector": "Financials",
+    "industry": "Asset management",
+    "aliases": [
+      "BlackRock"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "BRK": {
+    "name": "Berkshire Hathaway Inc",
+    "cik": "0001067983",
+    "sector": "Financials",
+    "industry": "Diversified holding company (insurance)",
+    "aliases": [
+      "Berkshire Hathaway",
+      "Berkshire"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "CAT": {
+    "name": "Caterpillar Inc",
+    "cik": "0000018230",
+    "sector": "Industrials",
+    "industry": "Machinery",
+    "aliases": [
+      "Caterpillar"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "CMCSA": {
+    "name": "Comcast Corporation",
+    "cik": "0001166691",
+    "sector": "Communication Services",
+    "industry": "Media and cable",
+    "aliases": [
+      "Comcast",
+      "NBCUniversal",
+      "Sky"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "COST": {
+    "name": "Costco Wholesale Corporation",
+    "cik": "0000909832",
+    "sector": "Consumer Staples",
+    "industry": "General merchandise retail",
+    "aliases": [
+      "Costco",
+      "Costco Wholesale"
+    ],
+    "fiscal_year_end": "08-31"
+  },
+  "CRM": {
+    "name": "Salesforce Inc",
+    "cik": "0001108524",
+    "sector": "Information Technology",
+    "industry": "Software",
+    "aliases": [
+      "Salesforce",
+      "salesforce.com"
+    ],
+    "fiscal_year_end": "01-31"
+  },
+  "CSCO": {
+    "name": "Cisco Systems Inc",
+    "cik": "0000858877",
+    "sector": "Information Technology",
+    "industry": "Networking equipment",
+    "aliases": [
+      "Cisco",
+      "Cisco Systems"
+    ],
+    "fiscal_year_end": "07-26"
+  },
+  "CVX": {
+    "name": "Chevron Corporation",
+    "cik": "0000093410",
+    "sector": "Energy",
+    "industry": "Integrated oil and gas",
+    "aliases": [
+      "Chevron",
+      "ChevronTexaco"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "DE": {
+    "name": "Deere & Company",
+    "cik": "0000315189",
+    "sector": "Industrials",
+    "industry": "Machinery",
+    "aliases": [
+      "Deere",
+      "John Deere",
+      "Deere & Company"
+    ],
+    "fiscal_year_end": "11-02"
+  },
+  "DIS": {
+    "name": "The Walt Disney Company",
+    "cik": "0001744489",
+    "sector": "Communication Services",
+    "industry": "Media and entertainment",
+    "aliases": [
+      "Disney",
+      "Walt Disney",
+      "The Walt Disney Company"
+    ],
+    "fiscal_year_end": "09-27"
+  },
+  "GE": {
+    "name": "General Electric Company",
+    "cik": "0000040554",
+    "sector": "Industrials",
+    "industry": "Conglomerate",
+    "aliases": [
+      "General Electric",
+      "GE Capital",
+      "General Electric Capital Corporation",
+      "GE Aerospace"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "GOOG": {
+    "name": "Alphabet Inc",
+    "cik": "0001652044",
+    "sector": "Communication Services",
+    "industry": "Internet services",
+    "aliases": [
+      "Alphabet",
+      "Google"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "GS": {
+    "name": "Goldman Sachs Group Inc",
+    "cik": "0000886982",
+    "sector": "Financials",
+    "industry": "Investment banking",
+    "aliases": [
+      "Goldman Sachs",
+      "Goldman"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "HD": {
+    "name": "The Home Depot Inc",
+    "cik": "0000354950",
+    "sector": "Consumer Discretionary",
+    "industry": "Home improvement retail",
+    "aliases": [
+      "Home Depot",
+      "The Home Depot"
+    ],
+    "fiscal_year_end": "02-02"
+  },
+  "IBM": {
+    "name": "International Business Machines Corp",
+    "cik": "0000051143",
+    "sector": "Information Technology",
+    "industry": "IT services and software",
+    "aliases": [
+      "IBM",
+      "International Business Machines"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "INTC": {
+    "name": "Intel Corporation",
+    "cik": "0000050863",
+    "sector": "Information Technology",
+    "industry": "Semiconductors",
+    "aliases": [
+      "Intel"
+    ],
+    "fiscal_year_end": "12-27"
+  },
+  "JNJ": {
+    "name": "Johnson & Johnson",
+    "cik": "0000200406",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals",
+    "aliases": [
+      "Johnson & Johnson",
+      "J&J",
+      "Janssen"
+    ],
+    "fiscal_year_end": "12-28"
+  },
+  "JPM": {
+    "name": "JPMorgan Chase & Co",
+    "cik": "0000019617",
+    "sector": "Financials",
+    "industry": "Banking",
+    "aliases": [
+      "JPMorgan",
+      "JPMorgan Chase",
+      "JPMorganChase",
+      "JP Morgan",
+      "Chase"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "KO": {
+    "name": "The Coca-Cola Company",
+    "cik": "0000021344",
+    "sector": "Consumer Staples",
+    "industry": "Beverages",
+    "aliases": [
+      "Coca-Cola",
+      "Coke",
+      "The Coca-Cola Company"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "LLY": {
+    "name": "Eli Lilly and Company",
+    "cik": "0000059478",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals",
+    "aliases": [
+      "Eli Lilly",
+      "Lilly"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "LMT": {
+    "name": "Lockheed Martin Corporation",
+    "cik": "0000936468",
+    "sector": "Industrials",
+    "industry": "Aerospace and defense",
+    "aliases": [
+      "Lockheed Martin",
+      "Lockheed"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "MA": {
+    "name": "Mastercard Inc",
+    "cik": "0001141391",
+    "sector": "Financials",
+    "industry": "Payments",
+    "aliases": [
+      "Mastercard"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "MCD": {
+    "name": "McDonalds Corporation",
+    "cik": "0000063908",
+    "sector": "Consumer Discretionary",
+    "industry": "Restaurants",
+    "aliases": [
+      "McDonald's",
+      "McDonalds"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "META": {
+    "name": "Meta Platforms Inc",
+    "cik": "0001326801",
+    "sector": "Communication Services",
+    "industry": "Internet services",
+    "aliases": [
+      "Meta",
+      "Meta Platforms",
+      "Facebook"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "MRK": {
+    "name": "Merck & Co Inc",
+    "cik": "0000310158",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals",
+    "aliases": [
+      "Merck",
+      "Merck & Co.",
+      "MSD"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "MS": {
+    "name": "Morgan Stanley",
+    "cik": "0000895421",
+    "sector": "Financials",
+    "industry": "Investment banking",
+    "aliases": [
+      "Morgan Stanley"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "MSFT": {
+    "name": "Microsoft Corporation",
+    "cik": "0000789019",
+    "sector": "Information Technology",
+    "industry": "Software",
+    "aliases": [
+      "Microsoft"
+    ],
+    "fiscal_year_end": "06-30"
+  },
+  "NFLX": {
+    "name": "Netflix Inc",
+    "cik": "0001065280",
+    "sector": "Communication Services",
+    "industry": "Media and entertainment",
+    "aliases": [
+      "Netflix"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "NKE": {
+    "name": "Nike Inc",
+    "cik": "0000320187",
+    "sector": "Consumer Discretionary",
+    "industry": "Apparel and footwear",
+    "aliases": [
+      "Nike"
+    ],
+    "fiscal_year_end": "05-31"
+  },
+  "NVDA": {
+    "name": "NVIDIA Corporation",
+    "cik": "0001045810",
+    "sector": "Information Technology",
+    "industry": "Semiconductors",
+    "aliases": [
+      "NVIDIA",
+      "Nvidia"
+    ],
+    "fiscal_year_end": "01-26"
+  },
+  "ORCL": {
+    "name": "Oracle Corporation",
+    "cik": "0001341439",
+    "sector": "Information Technology",
+    "industry": "Software",
+    "aliases": [
+      "Oracle"
+    ],
+    "fiscal_year_end": "05-31"
+  },
+  "PEP": {
+    "name": "PepsiCo Inc",
+    "cik": "0000077476",
+    "sector": "Consumer Staples",
+    "industry": "Beverages and snacks",
+    "aliases": [
+      "PepsiCo",
+      "Pepsi",
+      "Frito-Lay"
+    ],
+    "fiscal_year_end": "12-27"
+  },
+  "PFE": {
+    "name": "Pfizer Inc",
+    "cik": "0000078003",
+    "sector": "Healthcare",
+    "industry": "Pharmaceuticals",
+    "aliases": [
+      "Pfizer"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "PG": {
+    "name": "Procter & Gamble Company",
+    "cik": "0000080424",
+    "sector": "Consumer Staples",
+    "industry": "Household products",
+    "aliases": [
+      "Procter & Gamble",
+      "P&G"
+    ],
+    "fiscal_year_end": "06-30"
+  },
+  "RTX": {
+    "name": "RTX Corporation",
+    "cik": "0000101829",
+    "sector": "Industrials",
+    "industry": "Aerospace and defense",
+    "aliases": [
+      "RTX",
+      "Raytheon",
+      "Raytheon Technologies",
+      "United Technologies"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "SBUX": {
+    "name": "Starbucks Corporation",
+    "cik": "0000829224",
+    "sector": "Consumer Discretionary",
+    "industry": "Restaurants",
+    "aliases": [
+      "Starbucks"
+    ],
+    "fiscal_year_end": "09-28"
+  },
+  "T": {
+    "name": "AT&T Inc",
+    "cik": "0000732717",
+    "sector": "Communication Services",
+    "industry": "Telecommunications",
+    "aliases": [
+      "AT&T"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "TGT": {
+    "name": "Target Corporation",
+    "cik": "0000027419",
+    "sector": "Consumer Staples",
+    "industry": "General merchandise retail",
+    "aliases": [
+      "Target"
+    ],
+    "fiscal_year_end": "02-01"
+  },
+  "TMO": {
+    "name": "Thermo Fisher Scientific Inc",
+    "cik": "0000097745",
+    "sector": "Healthcare",
+    "industry": "Life sciences tools",
+    "aliases": [
+      "Thermo Fisher",
+      "Thermo Fisher Scientific"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "TSLA": {
+    "name": "Tesla Inc",
+    "cik": "0001318605",
+    "sector": "Consumer Discretionary",
+    "industry": "Automobiles",
+    "aliases": [
+      "Tesla",
+      "Tesla Motors"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "UNH": {
+    "name": "UnitedHealth Group Inc",
+    "cik": "0000731766",
+    "sector": "Healthcare",
+    "industry": "Managed care",
+    "aliases": [
+      "UnitedHealth",
+      "UnitedHealth Group",
+      "UnitedHealthcare",
+      "Optum"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "UPS": {
+    "name": "United Parcel Service Inc",
+    "cik": "0001090727",
+    "sector": "Industrials",
+    "industry": "Logistics",
+    "aliases": [
+      "UPS",
+      "United Parcel Service"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "V": {
+    "name": "Visa Inc",
+    "cik": "0001403161",
+    "sector": "Financials",
+    "industry": "Payments",
+    "aliases": [
+      "Visa"
+    ],
+    "fiscal_year_end": "09-30"
+  },
+  "VZ": {
+    "name": "Verizon Communications Inc",
+    "cik": "0000732712",
+    "sector": "Communication Services",
+    "industry": "Telecommunications",
+    "aliases": [
+      "Verizon"
+    ],
+    "fiscal_year_end": "12-31"
+  },
+  "WMT": {
+    "name": "Walmart Inc",
+    "cik": "0000104169",
+    "sector": "Consumer Staples",
+    "industry": "General merchandise retail",
+    "aliases": [
+      "Walmart",
+      "Wal-Mart"
+    ],
+    "fiscal_year_end": "01-31"
+  },
+  "XOM": {
+    "name": "Exxon Mobil Corporation",
+    "cik": "0000034088",
+    "sector": "Energy",
+    "industry": "Integrated oil and gas",
+    "aliases": [
+      "ExxonMobil",
+      "Exxon",
+      "Exxon Mobil"
+    ],
+    "fiscal_year_end": "12-31"
+  }
+}

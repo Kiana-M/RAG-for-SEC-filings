@@ -2,3 +2,10 @@ data/
 .DS_Store
 .venv/
 .vscode/
+.env
+poc/index/
+__pycache__/
+poc/ingest_full.log
+poc/cache/
+poc/results.csv
+poc/eval_summary.csv

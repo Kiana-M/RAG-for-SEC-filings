@@ -1,0 +1,247 @@
+ticker,sector,industry,form,fiscal_year,fiscal_quarter,fiscal_label,period_end,period_end_src,filing_date,header_quarter,xbrl_period,xbrl_mismatch,status,file
+AAPL,Information Technology,Consumer electronics,10-Q,2022,Q2,Q2 FY2022,2022-03-26,header,2022-04-29,2022Q1,2022Q2,False,ok,AAPL_10Q_2022Q1_2022-04-29_full.txt
+AAPL,Information Technology,Consumer electronics,10-Q,2022,Q3,Q3 FY2022,2022-06-25,header,2022-07-29,2022Q2,2022Q3,False,ok,AAPL_10Q_2022Q2_2022-07-29_full.txt
+AAPL,Information Technology,Consumer electronics,10-K,2022,FY,FY2022,2022-09-24,header,2022-10-28,2022Q3,2022FY,False,ok,AAPL_10K_2022Q3_2022-10-28_full.txt
+AAPL,Information Technology,Consumer electronics,10-Q,2023,Q1,Q1 FY2023,2022-12-31,header,2023-02-03,2022Q4,2023Q1,False,ok,AAPL_10Q_2022Q4_2023-02-03_full.txt
+AAPL,Information Technology,Consumer electronics,10-Q,2023,Q2,Q2 FY2023,2023-04-01,header,2023-05-05,2023Q2,2023Q2,False,ok,AAPL_10Q_2023Q2_2023-05-05_full.txt
+AAPL,Information Technology,Consumer electronics,10-Q,2023,Q3,Q3 FY2023,2023-07-01,header,2023-08-04,2023Q3,2023Q3,False,ok,AAPL_10Q_2023Q3_2023-08-04_full.txt
+AAPL,Information Technology,Consumer electronics,10-K,2023,FY,FY2023,2023-09-30,header,2023-11-03,2023Q3,2023FY,False,ok,AAPL_10K_2023Q3_2023-11-03_full.txt
+AAPL,Information Technology,Consumer electronics,10-Q,2024,Q1,Q1 FY2024,2023-12-30,header,2024-02-02,2023Q4,2024Q1,False,ok,AAPL_10Q_2023Q4_2024-02-02_full.txt
+AAPL,Information Technology,Consumer electronics,10-Q,2024,Q2,Q2 FY2024,2024-03-30,header,2024-05-03,2024Q1,2024Q2,False,ok,AAPL_10Q_2024Q1_2024-05-03_full.txt
+AAPL,Information Technology,Consumer electronics,10-Q,2024,Q3,Q3 FY2024,2024-06-29,header,2024-08-02,2024Q2,2024Q3,False,ok,AAPL_10Q_2024Q2_2024-08-02_full.txt
+AAPL,Information Technology,Consumer electronics,10-K,2024,FY,FY2024,2024-09-28,header,2024-11-01,2024Q3,2024FY,False,ok,AAPL_10K_2024Q3_2024-11-01_full.txt
+AAPL,Information Technology,Consumer electronics,10-Q,2025,Q1,Q1 FY2025,2024-12-28,header,2025-01-31,2024Q4,2025Q1,False,ok,AAPL_10Q_2024Q4_2025-01-31_full.txt
+AAPL,Information Technology,Consumer electronics,10-Q,2025,Q2,Q2 FY2025,2025-03-29,header,2025-05-02,2025Q1,2025Q2,False,ok,AAPL_10Q_2025Q1_2025-05-02_full.txt
+AAPL,Information Technology,Consumer electronics,10-Q,2025,Q3,Q3 FY2025,2025-06-28,header,2025-08-01,2025Q2,2025Q3,False,ok,AAPL_10Q_2025Q2_2025-08-01_full.txt
+AAPL,Information Technology,Consumer electronics,10-K,2025,FY,FY2025,2025-09-27,url,2025-10-31,,2025FY,False,ok,AAPL_10K_2025-10-31_full.txt
+AAPL,Information Technology,Consumer electronics,10-Q,2026,Q1,Q1 FY2026,2025-12-27,header,2026-01-30,2025Q4,2026Q1,False,ok,AAPL_10Q_2025Q4_2026-01-30_full.txt
+ABBV,Healthcare,Pharmaceuticals,10-K,2024,FY,FY2024,2024-12-31,url,2025-02-14,,2024FY,False,ok,ABBV_10K_2025-02-14_full.txt
+ADBE,Information Technology,Software,10-K,2025,FY,FY2025,2025-11-28,url,2026-01-15,,2025FY,False,ok,ADBE_10K_2026-01-15_full.txt
+AMD,Information Technology,Semiconductors,10-K,2025,FY,FY2025,2025-12-27,url,2026-02-04,,2025FY,False,ok,AMD_10K_2026-02-04_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-Q,2022,Q1,Q1 FY2022,2022-03-31,header,2022-04-29,2022Q1,2022Q1,False,ok,AMZN_10Q_2022Q1_2022-04-29_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-Q,2022,Q2,Q2 FY2022,2022-06-30,header,2022-07-29,2022Q2,2022Q2,False,ok,AMZN_10Q_2022Q2_2022-07-29_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-Q,2022,Q3,Q3 FY2022,2022-09-30,header,2022-10-28,2022Q3,2022Q3,False,ok,AMZN_10Q_2022Q3_2022-10-28_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-K,2022,FY,FY2022,2022-12-31,header,2023-02-03,2022Q4,2022FY,False,ok,AMZN_10K_2022Q4_2023-02-03_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-Q,2023,Q1,Q1 FY2023,2023-03-31,header,2023-04-28,2023Q1,2023Q1,False,ok,AMZN_10Q_2023Q1_2023-04-28_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-Q,2023,Q2,Q2 FY2023,2023-06-30,header,2023-08-04,2023Q2,2023Q2,False,ok,AMZN_10Q_2023Q2_2023-08-04_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-Q,2023,Q3,Q3 FY2023,2023-09-30,header,2023-10-27,2023Q3,2023Q3,False,ok,AMZN_10Q_2023Q3_2023-10-27_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-K,2023,FY,FY2023,2023-12-31,header,2024-02-02,2023Q4,2023FY,False,ok,AMZN_10K_2023Q4_2024-02-02_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-Q,2024,Q1,Q1 FY2024,2024-03-31,header,2024-05-01,2024Q1,2024Q1,False,ok,AMZN_10Q_2024Q1_2024-05-01_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-Q,2024,Q2,Q2 FY2024,2024-06-30,header,2024-08-02,2024Q2,2024Q2,False,ok,AMZN_10Q_2024Q2_2024-08-02_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-Q,2024,Q3,Q3 FY2024,2024-09-30,header,2024-11-01,2024Q3,2024Q3,False,ok,AMZN_10Q_2024Q3_2024-11-01_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-K,2024,FY,FY2024,2024-12-31,header,2025-02-07,2024Q4,2024FY,False,ok,AMZN_10K_2024Q4_2025-02-07_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-Q,2025,Q1,Q1 FY2025,2025-03-31,header,2025-05-02,2025Q1,2025Q1,False,ok,AMZN_10Q_2025Q1_2025-05-02_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-Q,2025,Q2,Q2 FY2025,2025-06-30,header,2025-08-01,2025Q2,2025Q2,False,ok,AMZN_10Q_2025Q2_2025-08-01_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-Q,2025,Q3,Q3 FY2025,2025-09-30,header,2025-10-31,2025Q3,2025Q3,False,ok,AMZN_10Q_2025Q3_2025-10-31_full.txt
+AMZN,Consumer Discretionary,Internet retail and cloud,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-06,,2025FY,False,ok,AMZN_10K_2026-02-06_full.txt
+AXP,Financials,Consumer finance and payments,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-06,,2025FY,False,ok,AXP_10K_2026-02-06_full.txt
+BA,Industrials,Aerospace and defense,10-K,2025,FY,FY2025,2025-12-31,url,2026-01-30,,2025FY,False,ok,BA_10K_2026-01-30_full.txt
+BAC,Financials,Banking,10-K,2024,FY,FY2024,2024-12-31,url,2025-02-25,,2024FY,False,ok,BAC_10K_2025-02-25_full.txt
+BAC,Financials,Banking,10-Q,2025,Q1,Q1 FY2025,2025-03-31,header,2025-04-30,2025Q1,2025Q1,False,ok,BAC_10Q_2025Q1_2025-04-30_full.txt
+BAC,Financials,Banking,10-Q,2025,Q2,Q2 FY2025,2025-06-30,header,2025-07-31,2025Q2,2025Q2,False,ok,BAC_10Q_2025Q2_2025-07-31_full.txt
+BAC,Financials,Banking,10-Q,2025,Q3,Q3 FY2025,2025-09-30,header,2025-10-31,2025Q3,2025Q3,False,ok,BAC_10Q_2025Q3_2025-10-31_full.txt
+BLK,Financials,Asset management,10-K,2023,FY,FY2023,2023-12-31,url,2024-02-23,,,False,ok,BLK_10K_2024-02-23_full.txt
+BRK,Financials,Diversified holding company (insurance),10-K,2024,FY,FY2024,2024-12-31,url,2025-02-24,,,False,ok,BRK_10K_2025-02-24_full.txt
+CAT,Industrials,Machinery,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-13,,2025FY,False,ok,CAT_10K_2026-02-13_full.txt
+CMCSA,Communication Services,Media and cable,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-03,,,False,ok,CMCSA_10K_2026-02-03_full.txt
+COST,Consumer Staples,General merchandise retail,10-K,2025,FY,FY2025,2025-08-31,url,2025-10-08,,2025FY,False,ok,COST_10K_2025-10-08_full.txt
+CRM,Information Technology,Software,10-K,2025,FY,FY2025,2025-01-31,url,2025-03-05,,2025FY,False,ok,CRM_10K_2025-03-05_full.txt
+CSCO,Information Technology,Networking equipment,10-K,2025,FY,FY2025,2025-07-26,url,2025-09-03,,2025FY,False,ok,CSCO_10K_2025-09-03_full.txt
+CVX,Energy,Integrated oil and gas,10-K,2024,FY,FY2024,2024-12-31,url,2025-02-21,,2024FY,False,ok,CVX_10K_2025-02-21_full.txt
+DE,Industrials,Machinery,10-K,2025,FY,FY2025,2025-11-02,url,2025-12-18,,,False,ok,DE_10K_2025-12-18_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2022,Q1,Q1 FY2022,2022-01-01,header,2022-02-09,2022Q1,2022FY,True,ok,DIS_10Q_2022Q1_2022-02-09_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2022,Q2,Q2 FY2022,2022-04-02,header,2022-05-11,2022Q2,2022FY,True,ok,DIS_10Q_2022Q2_2022-05-11_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2022,Q3,Q3 FY2022,2022-07-02,header,2022-08-10,2022Q3,2022FY,True,ok,DIS_10Q_2022Q3_2022-08-10_full.txt
+DIS,Communication Services,Media and entertainment,10-K,2022,FY,FY2022,2022-10-01,header,2022-11-29,2022Q4,2022FY,False,ok,DIS_10K_2022Q4_2022-11-29_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2023,Q1,Q1 FY2023,2022-12-31,header,2023-02-08,2022Q4,2023Q1,False,ok,DIS_10Q_2022Q4_2023-02-08_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2023,Q2,Q2 FY2023,2023-04-01,header,2023-05-10,2023Q2,2023Q2,False,ok,DIS_10Q_2023Q2_2023-05-10_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2023,Q3,Q3 FY2023,2023-07-01,header,2023-08-09,2023Q3,2023Q3,False,ok,DIS_10Q_2023Q3_2023-08-09_full.txt
+DIS,Communication Services,Media and entertainment,10-K,2023,FY,FY2023,2023-09-30,header,2023-11-21,2023Q3,2023FY,False,ok,DIS_10K_2023Q3_2023-11-21_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2024,Q1,Q1 FY2024,2023-12-30,header,2024-02-07,2023Q4,2024Q1,False,ok,DIS_10Q_2023Q4_2024-02-07_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2024,Q2,Q2 FY2024,2024-03-30,header,2024-05-07,2024Q1,2024Q2,False,ok,DIS_10Q_2024Q1_2024-05-07_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2024,Q3,Q3 FY2024,2024-06-29,header,2024-08-07,2024Q2,2024Q3,False,ok,DIS_10Q_2024Q2_2024-08-07_full.txt
+DIS,Communication Services,Media and entertainment,10-K,2024,FY,FY2024,2024-09-28,header,2024-11-14,2024Q3,2024FY,False,ok,DIS_10K_2024Q3_2024-11-14_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2025,Q1,Q1 FY2025,2024-12-28,header,2025-02-05,2024Q4,2025Q1,False,ok,DIS_10Q_2024Q4_2025-02-05_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2025,Q2,Q2 FY2025,2025-03-29,header,2025-05-07,2025Q1,2025Q2,False,ok,DIS_10Q_2025Q1_2025-05-07_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2025,Q3,Q3 FY2025,2025-06-28,header,2025-08-06,2025Q2,2025Q3,False,ok,DIS_10Q_2025Q2_2025-08-06_full.txt
+DIS,Communication Services,Media and entertainment,10-K,2025,FY,FY2025,2025-09-27,url,2025-11-13,,2025FY,False,ok,DIS_10K_2025-11-13_full.txt
+DIS,Communication Services,Media and entertainment,10-Q,2026,Q1,Q1 FY2026,2025-12-27,header,2026-02-02,2025Q4,2026Q1,False,ok,DIS_10Q_2025Q4_2026-02-02_full.txt
+GE,Industrials,Conglomerate,10-K,2014,FY,FY2014,2014-12-31,cover,2015-02-27,,,False,"excluded: GE Capital FY2014, outdated",GE_10K_2015-02-27_full.txt
+GOOG,Communication Services,Internet services,10-Q,2022,Q3,Q3 FY2022,2022-09-30,header,2022-10-26,2022Q3,2022Q3,False,ok,GOOG_10Q_2022Q3_2022-10-26_full.txt
+GOOG,Communication Services,Internet services,10-K,2022,FY,FY2022,2022-12-31,header,2023-02-03,2022Q4,2022FY,False,ok,GOOG_10K_2022Q4_2023-02-03_full.txt
+GOOG,Communication Services,Internet services,10-Q,2023,Q1,Q1 FY2023,2023-03-31,header,2023-04-26,2023Q1,2023Q1,False,ok,GOOG_10Q_2023Q1_2023-04-26_full.txt
+GOOG,Communication Services,Internet services,10-Q,2023,Q2,Q2 FY2023,2023-06-30,header,2023-07-26,2023Q2,2023Q2,False,ok,GOOG_10Q_2023Q2_2023-07-26_full.txt
+GOOG,Communication Services,Internet services,10-Q,2023,Q3,Q3 FY2023,2023-09-30,header,2023-10-25,2023Q3,2023Q3,False,ok,GOOG_10Q_2023Q3_2023-10-25_full.txt
+GOOG,Communication Services,Internet services,10-K,2023,FY,FY2023,2023-12-31,header,2024-01-31,2023Q4,2023FY,False,ok,GOOG_10K_2023Q4_2024-01-31_full.txt
+GOOG,Communication Services,Internet services,10-Q,2024,Q1,Q1 FY2024,2024-03-31,header,2024-04-26,2024Q1,2024Q1,False,ok,GOOG_10Q_2024Q1_2024-04-26_full.txt
+GOOG,Communication Services,Internet services,10-Q,2024,Q2,Q2 FY2024,2024-06-30,header,2024-07-24,2024Q2,2024Q2,False,ok,GOOG_10Q_2024Q2_2024-07-24_full.txt
+GOOG,Communication Services,Internet services,10-Q,2024,Q3,Q3 FY2024,2024-09-30,header,2024-10-30,2024Q3,2024Q3,False,ok,GOOG_10Q_2024Q3_2024-10-30_full.txt
+GOOG,Communication Services,Internet services,10-K,2024,FY,FY2024,2024-12-31,header,2025-02-05,2024Q4,2024FY,False,ok,GOOG_10K_2024Q4_2025-02-05_full.txt
+GOOG,Communication Services,Internet services,10-Q,2025,Q1,Q1 FY2025,2025-03-31,header,2025-04-25,2025Q1,2025Q1,False,ok,GOOG_10Q_2025Q1_2025-04-25_full.txt
+GOOG,Communication Services,Internet services,10-Q,2025,Q2,Q2 FY2025,2025-06-30,header,2025-07-24,2025Q2,2025Q2,False,ok,GOOG_10Q_2025Q2_2025-07-24_full.txt
+GOOG,Communication Services,Internet services,10-Q,2025,Q3,Q3 FY2025,2025-09-30,header,2025-10-30,2025Q3,2025Q3,False,ok,GOOG_10Q_2025Q3_2025-10-30_full.txt
+GOOG,Communication Services,Internet services,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-05,,2025FY,False,ok,GOOG_10K_2026-02-05_full.txt
+GS,Financials,Investment banking,10-K,2024,FY,FY2024,2024-12-31,url,2025-02-27,,,False,ok,GS_10K_2025-02-27_full.txt
+HD,Consumer Discretionary,Home improvement retail,10-K,2025,FY,FY2024,2025-02-02,url,2025-03-21,,2024FY,True,ok,HD_10K_2025-03-21_full.txt
+IBM,Information Technology,IT services and software,10-K,2024,FY,FY2024,2024-12-31,url,2025-02-25,,2024FY,False,ok,IBM_10K_2025-02-25_full.txt
+INTC,Information Technology,Semiconductors,10-K,2025,FY,FY2025,2025-12-27,url,2026-01-23,,2025FY,False,ok,INTC_10K_2026-01-23_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-K,2021,FY,FY2021,2022-01-02,header,2022-02-17,2022Q1,2021FY,False,ok,JNJ_10K_2022Q1_2022-02-17_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-Q,2022,Q1,Q1 FY2022,2022-04-03,header,2022-04-29,2022Q2,2022Q1,False,ok,JNJ_10Q_2022Q2_2022-04-29_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-Q,2022,Q2,Q2 FY2022,2022-07-03,header,2022-07-29,2022Q3,2022Q2,False,ok,JNJ_10Q_2022Q3_2022-07-29_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-Q,2022,Q3,Q3 FY2022,2022-10-02,header,2022-10-27,2022Q4,2022Q3,False,ok,JNJ_10Q_2022Q4_2022-10-27_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-K,2022,FY,FY2022,2023-01-01,header,2023-02-16,2023Q1,2022FY,False,ok,JNJ_10K_2023Q1_2023-02-16_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-Q,2023,Q1,Q1 FY2023,2023-04-02,header,2023-04-28,2023Q2,2023Q1,False,ok,JNJ_10Q_2023Q2_2023-04-28_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-Q,2023,Q2,Q2 FY2023,2023-07-02,header,2023-07-31,2023Q3,2023Q2,False,ok,JNJ_10Q_2023Q3_2023-07-31_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-Q,2023,Q3,Q3 FY2023,2023-10-01,header,2023-10-27,2023Q4,2023Q3,False,ok,JNJ_10Q_2023Q4_2023-10-27_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-K,2023,FY,FY2023,2023-12-31,header,2024-02-16,2023Q4,2023FY,False,ok,JNJ_10K_2023Q4_2024-02-16_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-Q,2024,Q1,Q1 FY2024,2024-03-31,header,2024-05-01,2024Q1,2024Q1,False,ok,JNJ_10Q_2024Q1_2024-05-01_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-Q,2024,Q2,Q2 FY2024,2024-06-30,header,2024-07-25,2024Q2,2024Q2,False,ok,JNJ_10Q_2024Q2_2024-07-25_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-Q,2024,Q3,Q3 FY2024,2024-09-29,header,2024-10-23,2024Q3,2024Q3,False,ok,JNJ_10Q_2024Q3_2024-10-23_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-K,2024,FY,FY2024,2024-12-29,header,2025-02-13,2024Q4,2024FY,False,ok,JNJ_10K_2024Q4_2025-02-13_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-Q,2025,Q1,Q1 FY2025,2025-03-30,header,2025-04-23,2025Q1,2025Q1,False,ok,JNJ_10Q_2025Q1_2025-04-23_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-Q,2025,Q2,Q2 FY2025,2025-06-29,header,2025-07-24,2025Q2,2025Q2,False,ok,JNJ_10Q_2025Q2_2025-07-24_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-Q,2025,Q3,Q3 FY2025,2025-09-28,header,2025-10-22,2025Q3,2025Q3,False,ok,JNJ_10Q_2025Q3_2025-10-22_full.txt
+JNJ,Healthcare,Pharmaceuticals,10-K,2025,FY,FY2025,2025-12-28,url,2026-02-11,,2025FY,False,ok,JNJ_10K_2026-02-11_full.txt
+JPM,Financials,Banking,10-Q,2025,Q1,Q1 FY2025,2025-03-31,header,2025-05-01,2025Q1,2025Q1,False,ok,JPM_10Q_2025Q1_2025-05-01_full.txt
+JPM,Financials,Banking,10-Q,2025,Q2,Q2 FY2025,2025-06-30,header,2025-08-05,2025Q2,2025Q2,False,ok,JPM_10Q_2025Q2_2025-08-05_full.txt
+JPM,Financials,Banking,10-Q,2025,Q3,Q3 FY2025,2025-09-30,header,2025-11-04,2025Q3,2025Q3,False,ok,JPM_10Q_2025Q3_2025-11-04_full.txt
+JPM,Financials,Banking,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-13,,2025FY,False,ok,JPM_10K_2026-02-13_full.txt
+KO,Consumer Staples,Beverages,10-Q,2022,Q1,Q1 FY2022,2022-04-01,header,2022-04-28,2022Q2,2022Q1,False,ok,KO_10Q_2022Q2_2022-04-28_full.txt
+KO,Consumer Staples,Beverages,10-Q,2022,Q2,Q2 FY2022,2022-07-01,header,2022-07-27,2022Q3,2022Q2,False,ok,KO_10Q_2022Q3_2022-07-27_full.txt
+KO,Consumer Staples,Beverages,10-Q,2022,Q3,Q3 FY2022,2022-09-30,header,2022-10-26,2022Q3,2022Q3,False,ok,KO_10Q_2022Q3_2022-10-26_full.txt
+KO,Consumer Staples,Beverages,10-K,2022,FY,FY2022,2022-12-31,header,2023-02-21,2022Q4,2022FY,False,ok,KO_10K_2022Q4_2023-02-21_full.txt
+KO,Consumer Staples,Beverages,10-Q,2023,Q1,Q1 FY2023,2023-03-31,header,2023-04-26,2023Q1,2023Q1,False,ok,KO_10Q_2023Q1_2023-04-26_full.txt
+KO,Consumer Staples,Beverages,10-Q,2023,Q2,Q2 FY2023,2023-06-30,header,2023-07-27,2023Q2,2023Q2,False,ok,KO_10Q_2023Q2_2023-07-27_full.txt
+KO,Consumer Staples,Beverages,10-Q,2023,Q3,Q3 FY2023,2023-09-29,header,2023-10-24,2023Q3,2023Q3,False,ok,KO_10Q_2023Q3_2023-10-24_full.txt
+KO,Consumer Staples,Beverages,10-K,2023,FY,FY2023,2023-12-31,header,2024-02-20,2023Q4,2023FY,False,ok,KO_10K_2023Q4_2024-02-20_full.txt
+KO,Consumer Staples,Beverages,10-Q,2024,Q1,Q1 FY2024,2024-03-29,header,2024-05-02,2024Q1,2024Q1,False,ok,KO_10Q_2024Q1_2024-05-02_full.txt
+KO,Consumer Staples,Beverages,10-Q,2024,Q2,Q2 FY2024,2024-06-28,header,2024-07-29,2024Q2,2024Q2,False,ok,KO_10Q_2024Q2_2024-07-29_full.txt
+KO,Consumer Staples,Beverages,10-Q,2024,Q3,Q3 FY2024,2024-09-27,header,2024-10-24,2024Q3,2024Q3,False,ok,KO_10Q_2024Q3_2024-10-24_full.txt
+KO,Consumer Staples,Beverages,10-K,2024,FY,FY2024,2024-12-31,url,2025-02-20,,2024FY,False,ok,KO_10K_2025-02-20_full.txt
+KO,Consumer Staples,Beverages,10-Q,2025,Q1,Q1 FY2025,2025-03-28,header,2025-05-01,2025Q1,2025Q1,False,ok,KO_10Q_2025Q1_2025-05-01_full.txt
+KO,Consumer Staples,Beverages,10-Q,2025,Q2,Q2 FY2025,2025-06-27,header,2025-07-24,2025Q2,2025Q2,False,ok,KO_10Q_2025Q2_2025-07-24_full.txt
+KO,Consumer Staples,Beverages,10-Q,2025,Q3,Q3 FY2025,2025-09-26,header,2025-10-23,2025Q3,2025Q3,False,ok,KO_10Q_2025Q3_2025-10-23_full.txt
+LLY,Healthcare,Pharmaceuticals,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-12,,2025FY,False,ok,LLY_10K_2026-02-12_full.txt
+LMT,Industrials,Aerospace and defense,10-K,2025,FY,FY2025,2025-12-31,url,2026-01-29,,,False,ok,LMT_10K_2026-01-29_full.txt
+MA,Financials,Payments,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-11,,2025FY,False,ok,MA_10K_2026-02-11_full.txt
+MCD,Consumer Discretionary,Restaurants,10-Q,2023,Q1,Q1 FY2023,2023-03-31,header,2023-05-04,2023Q1,,False,ok,MCD_10Q_2023Q1_2023-05-04_full.txt
+MCD,Consumer Discretionary,Restaurants,10-K,2024,FY,FY2024,2024-12-31,url,2025-02-25,,,False,ok,MCD_10K_2025-02-25_full.txt
+META,Communication Services,Internet services,10-Q,2024,Q1,Q1 FY2024,2024-03-31,header,2024-04-25,2024Q1,2024Q1,False,ok,META_10Q_2024Q1_2024-04-25_full.txt
+META,Communication Services,Internet services,10-Q,2024,Q2,Q2 FY2024,2024-06-30,header,2024-08-01,2024Q2,2024Q2,False,ok,META_10Q_2024Q2_2024-08-01_full.txt
+META,Communication Services,Internet services,10-Q,2024,Q3,Q3 FY2024,2024-09-30,header,2024-10-31,2024Q3,2024Q3,False,ok,META_10Q_2024Q3_2024-10-31_full.txt
+META,Communication Services,Internet services,10-K,2024,FY,FY2024,2024-12-31,header,2025-01-30,2024Q4,2024FY,False,ok,META_10K_2024Q4_2025-01-30_full.txt
+META,Communication Services,Internet services,10-Q,2025,Q1,Q1 FY2025,2025-03-31,header,2025-05-01,2025Q1,2025Q1,False,ok,META_10Q_2025Q1_2025-05-01_full.txt
+META,Communication Services,Internet services,10-Q,2025,Q2,Q2 FY2025,2025-06-30,header,2025-07-31,2025Q2,2025Q2,False,ok,META_10Q_2025Q2_2025-07-31_full.txt
+META,Communication Services,Internet services,10-Q,2025,Q3,Q3 FY2025,2025-09-30,header,2025-10-30,2025Q3,2025Q3,False,ok,META_10Q_2025Q3_2025-10-30_full.txt
+META,Communication Services,Internet services,10-K,2025,FY,FY2025,2025-12-31,url,2026-01-29,,2025FY,False,ok,META_10K_2026-01-29_full.txt
+MRK,Healthcare,Pharmaceuticals,10-K,2024,FY,FY2024,2024-12-31,url,2025-02-25,,2024FY,False,ok,MRK_10K_2025-02-25_full.txt
+MS,Financials,Investment banking,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-19,,2025FY,False,ok,MS_10K_2026-02-19_full.txt
+MSFT,Information Technology,Software,10-Q,2022,Q3,Q3 FY2022,2022-03-31,header,2022-04-26,2022Q1,,False,ok,MSFT_10Q_2022Q1_2022-04-26_full.txt
+MSFT,Information Technology,Software,10-K,2022,FY,FY2022,2022-06-30,header,2022-07-28,2022Q2,,False,ok,MSFT_10K_2022Q2_2022-07-28_full.txt
+MSFT,Information Technology,Software,10-Q,2023,Q1,Q1 FY2023,2022-09-30,header,2022-10-25,2022Q3,,False,ok,MSFT_10Q_2022Q3_2022-10-25_full.txt
+MSFT,Information Technology,Software,10-Q,2023,Q2,Q2 FY2023,2022-12-31,header,2023-01-24,2022Q4,,False,ok,MSFT_10Q_2022Q4_2023-01-24_full.txt
+MSFT,Information Technology,Software,10-Q,2023,Q3,Q3 FY2023,2023-03-31,header,2023-04-25,2023Q1,,False,ok,MSFT_10Q_2023Q1_2023-04-25_full.txt
+MSFT,Information Technology,Software,10-K,2023,FY,FY2023,2023-06-30,header,2023-07-27,2023Q2,FY,False,ok,MSFT_10K_2023Q2_2023-07-27_full.txt
+MSFT,Information Technology,Software,10-Q,2024,Q1,Q1 FY2024,2023-09-30,header,2023-10-24,2023Q3,Q1,False,ok,MSFT_10Q_2023Q3_2023-10-24_full.txt
+MSFT,Information Technology,Software,10-Q,2024,Q2,Q2 FY2024,2023-12-31,header,2024-01-30,2023Q4,,False,ok,MSFT_10Q_2023Q4_2024-01-30_full.txt
+MSFT,Information Technology,Software,10-Q,2024,Q3,Q3 FY2024,2024-03-31,header,2024-04-25,2024Q1,Q3,False,ok,MSFT_10Q_2024Q1_2024-04-25_full.txt
+MSFT,Information Technology,Software,10-K,2024,FY,FY2024,2024-06-30,header,2024-07-30,2024Q2,,False,ok,MSFT_10K_2024Q2_2024-07-30_full.txt
+MSFT,Information Technology,Software,10-Q,2025,Q1,Q1 FY2025,2024-09-30,header,2024-10-30,2024Q3,Q1,False,ok,MSFT_10Q_2024Q3_2024-10-30_full.txt
+MSFT,Information Technology,Software,10-Q,2025,Q2,Q2 FY2025,2024-12-31,header,2025-01-29,2024Q4,Q2,False,ok,MSFT_10Q_2024Q4_2025-01-29_full.txt
+MSFT,Information Technology,Software,10-Q,2025,Q3,Q3 FY2025,2025-03-31,header,2025-04-30,2025Q1,,False,ok,MSFT_10Q_2025Q1_2025-04-30_full.txt
+MSFT,Information Technology,Software,10-K,2025,FY,FY2025,2025-06-30,url,2025-07-30,,,False,ok,MSFT_10K_2025-07-30_full.txt
+MSFT,Information Technology,Software,10-Q,2026,Q1,Q1 FY2026,2025-09-30,header,2025-10-29,2025Q3,2026Q1,False,ok,MSFT_10Q_2025Q3_2025-10-29_full.txt
+MSFT,Information Technology,Software,10-Q,2026,Q2,Q2 FY2026,2025-12-31,header,2026-01-28,2025Q4,,False,ok,MSFT_10Q_2025Q4_2026-01-28_full.txt
+NFLX,Communication Services,Media and entertainment,10-K,2025,FY,FY2025,2025-12-31,url,2026-01-23,,2025FY,False,ok,NFLX_10K_2026-01-23_full.txt
+NKE,Consumer Discretionary,Apparel and footwear,10-K,2025,FY,FY2025,2025-05-31,url,2025-07-17,,2025FY,False,ok,NKE_10K_2025-07-17_full.txt
+NVDA,Information Technology,Semiconductors,10-K,2022,FY,FY2022,2022-01-30,header,2022-03-18,2022Q1,2022FY,False,ok,NVDA_10K_2022Q1_2022-03-18_full.txt
+NVDA,Information Technology,Semiconductors,10-Q,2023,Q1,Q1 FY2023,2022-05-01,header,2022-05-27,2022Q2,2023Q1,False,ok,NVDA_10Q_2022Q2_2022-05-27_full.txt
+NVDA,Information Technology,Semiconductors,10-Q,2023,Q2,Q2 FY2023,2022-07-31,header,2022-08-31,2022Q3,2023Q2,False,ok,NVDA_10Q_2022Q3_2022-08-31_full.txt
+NVDA,Information Technology,Semiconductors,10-Q,2023,Q3,Q3 FY2023,2022-10-30,header,2022-11-18,2022Q4,2023Q3,False,ok,NVDA_10Q_2022Q4_2022-11-18_full.txt
+NVDA,Information Technology,Semiconductors,10-K,2023,FY,FY2023,2023-01-29,header,2023-02-24,2023Q1,2023FY,False,ok,NVDA_10K_2023Q1_2023-02-24_full.txt
+NVDA,Information Technology,Semiconductors,10-Q,2024,Q1,Q1 FY2024,2023-04-30,header,2023-05-26,2023Q2,2024Q1,False,ok,NVDA_10Q_2023Q2_2023-05-26_full.txt
+NVDA,Information Technology,Semiconductors,10-Q,2024,Q2,Q2 FY2024,2023-07-30,header,2023-08-28,2023Q3,2024Q2,False,ok,NVDA_10Q_2023Q3_2023-08-28_full.txt
+NVDA,Information Technology,Semiconductors,10-Q,2024,Q3,Q3 FY2024,2023-10-29,header,2023-11-21,2023Q4,2024Q3,False,ok,NVDA_10Q_2023Q4_2023-11-21_full.txt
+NVDA,Information Technology,Semiconductors,10-K,2024,FY,FY2024,2024-01-28,header,2024-02-21,2024Q1,2024FY,False,ok,NVDA_10K_2024Q1_2024-02-21_full.txt
+NVDA,Information Technology,Semiconductors,10-Q,2025,Q1,Q1 FY2025,2024-04-28,header,2024-05-29,2024Q2,2025Q1,False,ok,NVDA_10Q_2024Q2_2024-05-29_full.txt
+NVDA,Information Technology,Semiconductors,10-Q,2025,Q2,Q2 FY2025,2024-07-28,header,2024-08-28,2024Q3,2025Q2,False,ok,NVDA_10Q_2024Q3_2024-08-28_full.txt
+NVDA,Information Technology,Semiconductors,10-Q,2025,Q3,Q3 FY2025,2024-10-27,header,2024-11-20,2024Q4,2025Q3,False,ok,NVDA_10Q_2024Q4_2024-11-20_full.txt
+NVDA,Information Technology,Semiconductors,10-K,2025,FY,FY2025,2025-01-26,url,2025-02-26,,2025FY,False,ok,NVDA_10K_2025-02-26_full.txt
+NVDA,Information Technology,Semiconductors,10-Q,2026,Q1,Q1 FY2026,2025-04-27,header,2025-05-28,2025Q2,2026Q1,False,ok,NVDA_10Q_2025Q2_2025-05-28_full.txt
+NVDA,Information Technology,Semiconductors,10-Q,2026,Q2,Q2 FY2026,2025-07-27,header,2025-08-27,2025Q3,2026Q2,False,ok,NVDA_10Q_2025Q3_2025-08-27_full.txt
+NVDA,Information Technology,Semiconductors,10-Q,2026,Q3,Q3 FY2026,2025-10-26,header,2025-11-19,2025Q4,2026Q3,False,ok,NVDA_10Q_2025Q4_2025-11-19_full.txt
+ORCL,Information Technology,Software,10-K,2025,FY,FY2025,2025-05-31,url,2025-06-18,,,False,ok,ORCL_10K_2025-06-18_full.txt
+PEP,Consumer Staples,Beverages and snacks,10-Q,2023,Q1,Q1 FY2023,2023-03-25,header,2023-04-25,2023Q1,2023Q1,False,ok,PEP_10Q_2023Q1_2023-04-25_full.txt
+PEP,Consumer Staples,Beverages and snacks,10-K,2025,FY,FY2025,2025-12-27,url,2026-02-03,,2025FY,False,ok,PEP_10K_2026-02-03_full.txt
+PFE,Healthcare,Pharmaceuticals,10-Q,2022,Q1,Q1 FY2022,2022-04-03,header,2022-05-11,2022Q2,2022Q1,False,ok,PFE_10Q_2022Q2_2022-05-11_full.txt
+PFE,Healthcare,Pharmaceuticals,10-Q,2022,Q2,Q2 FY2022,2022-07-03,header,2022-08-10,2022Q3,2022Q2,False,ok,PFE_10Q_2022Q3_2022-08-10_full.txt
+PFE,Healthcare,Pharmaceuticals,10-Q,2022,Q3,Q3 FY2022,2022-10-02,header,2022-11-09,2022Q4,2022Q3,False,ok,PFE_10Q_2022Q4_2022-11-09_full.txt
+PFE,Healthcare,Pharmaceuticals,10-K,2022,FY,FY2022,2022-12-31,header,2023-02-23,2022Q4,2022FY,False,ok,PFE_10K_2022Q4_2023-02-23_full.txt
+PFE,Healthcare,Pharmaceuticals,10-Q,2023,Q1,Q1 FY2023,2023-04-02,header,2023-05-10,2023Q2,2023Q1,False,ok,PFE_10Q_2023Q2_2023-05-10_full.txt
+PFE,Healthcare,Pharmaceuticals,10-Q,2023,Q2,Q2 FY2023,2023-07-02,header,2023-08-09,2023Q3,2023Q2,False,ok,PFE_10Q_2023Q3_2023-08-09_full.txt
+PFE,Healthcare,Pharmaceuticals,10-Q,2023,Q3,Q3 FY2023,2023-10-01,header,2023-11-08,2023Q4,2023Q3,False,ok,PFE_10Q_2023Q4_2023-11-08_full.txt
+PFE,Healthcare,Pharmaceuticals,10-K,2023,FY,FY2023,2023-12-31,header,2024-02-22,2023Q4,2023FY,False,ok,PFE_10K_2023Q4_2024-02-22_full.txt
+PFE,Healthcare,Pharmaceuticals,10-Q,2024,Q1,Q1 FY2024,2024-03-31,header,2024-05-08,2024Q1,2024Q1,False,ok,PFE_10Q_2024Q1_2024-05-08_full.txt
+PFE,Healthcare,Pharmaceuticals,10-Q,2024,Q2,Q2 FY2024,2024-06-30,header,2024-08-05,2024Q2,2024Q2,False,ok,PFE_10Q_2024Q2_2024-08-05_full.txt
+PFE,Healthcare,Pharmaceuticals,10-Q,2024,Q3,Q3 FY2024,2024-09-29,header,2024-11-04,2024Q3,2024Q3,False,ok,PFE_10Q_2024Q3_2024-11-04_full.txt
+PFE,Healthcare,Pharmaceuticals,10-K,2024,FY,FY2024,2024-12-31,url,2025-02-27,,2024FY,False,ok,PFE_10K_2025-02-27_full.txt
+PFE,Healthcare,Pharmaceuticals,10-Q,2025,Q1,Q1 FY2025,2025-03-30,header,2025-05-05,2025Q1,2025Q1,False,ok,PFE_10Q_2025Q1_2025-05-05_full.txt
+PFE,Healthcare,Pharmaceuticals,10-Q,2025,Q2,Q2 FY2025,2025-06-29,header,2025-08-05,2025Q2,2025Q2,False,ok,PFE_10Q_2025Q2_2025-08-05_full.txt
+PFE,Healthcare,Pharmaceuticals,10-Q,2025,Q3,Q3 FY2025,2025-09-28,header,2025-11-04,2025Q3,2025Q3,False,ok,PFE_10Q_2025Q3_2025-11-04_full.txt
+PG,Consumer Staples,Household products,10-K,2025,FY,FY2025,2025-06-30,url,2025-08-04,,2025FY,False,ok,PG_10K_2025-08-04_full.txt
+RTX,Industrials,Aerospace and defense,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-06,,2025FY,False,ok,RTX_10K_2026-02-06_full.txt
+SBUX,Consumer Discretionary,Restaurants,10-K,2025,FY,FY2025,2025-09-28,url,2025-11-14,,2025FY,False,ok,SBUX_10K_2025-11-14_full.txt
+T,Communication Services,Telecommunications,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-09,,2025FY,False,ok,T_10K_2026-02-09_full.txt
+TGT,Consumer Staples,General merchandise retail,10-K,2025,FY,FY2024,2025-02-01,url,2025-03-12,,2024FY,True,ok,TGT_10K_2025-03-12_full.txt
+TMO,Healthcare,Life sciences tools,10-K,2024,FY,FY2024,2024-12-31,url,2025-02-20,,2024FY,False,ok,TMO_10K_2025-02-20_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-Q,2022,Q1,Q1 FY2022,2022-03-31,header,2022-04-25,2022Q1,,False,ok,TSLA_10Q_2022Q1_2022-04-25_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-Q,2022,Q2,Q2 FY2022,2022-06-30,header,2022-07-25,2022Q2,,False,ok,TSLA_10Q_2022Q2_2022-07-25_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-Q,2022,Q3,Q3 FY2022,2022-09-30,header,2022-10-24,2022Q3,,False,ok,TSLA_10Q_2022Q3_2022-10-24_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-K,2022,FY,FY2022,2022-12-31,header,2023-01-31,2022Q4,,False,ok,TSLA_10K_2022Q4_2023-01-31_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-Q,2023,Q1,Q1 FY2023,2023-03-31,header,2023-04-24,2023Q1,,False,ok,TSLA_10Q_2023Q1_2023-04-24_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-Q,2023,Q2,Q2 FY2023,2023-06-30,header,2023-07-24,2023Q2,,False,ok,TSLA_10Q_2023Q2_2023-07-24_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-Q,2023,Q3,Q3 FY2023,2023-09-30,header,2023-10-23,2023Q3,2023Q3,False,ok,TSLA_10Q_2023Q3_2023-10-23_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-K,2023,FY,FY2023,2023-12-31,header,2024-01-29,2023Q4,2023FY,False,ok,TSLA_10K_2023Q4_2024-01-29_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-Q,2024,Q1,Q1 FY2024,2024-03-31,header,2024-04-24,2024Q1,2024Q1,False,ok,TSLA_10Q_2024Q1_2024-04-24_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-Q,2024,Q2,Q2 FY2024,2024-06-30,header,2024-07-24,2024Q2,2024Q2,False,ok,TSLA_10Q_2024Q2_2024-07-24_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-Q,2024,Q3,Q3 FY2024,2024-09-30,header,2024-10-24,2024Q3,2024Q3,False,ok,TSLA_10Q_2024Q3_2024-10-24_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-K,2024,FY,FY2024,2024-12-31,header,2025-01-30,2024Q4,2024FY,False,ok,TSLA_10K_2024Q4_2025-01-30_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-Q,2025,Q1,Q1 FY2025,2025-03-31,header,2025-04-23,2025Q1,2025Q1,False,ok,TSLA_10Q_2025Q1_2025-04-23_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-Q,2025,Q2,Q2 FY2025,2025-06-30,header,2025-07-24,2025Q2,2025Q2,False,ok,TSLA_10Q_2025Q2_2025-07-24_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-Q,2025,Q3,Q3 FY2025,2025-09-30,header,2025-10-23,2025Q3,2025Q3,False,ok,TSLA_10Q_2025Q3_2025-10-23_full.txt
+TSLA,Consumer Discretionary,Automobiles,10-K,2025,FY,FY2025,2025-12-31,url,2026-01-29,,2025FY,False,ok,TSLA_10K_2026-01-29_full.txt
+UNH,Healthcare,Managed care,10-Q,2022,Q1,Q1 FY2022,2022-03-31,header,2022-05-04,2022Q1,,False,ok,UNH_10Q_2022Q1_2022-05-04_full.txt
+UNH,Healthcare,Managed care,10-Q,2022,Q2,Q2 FY2022,2022-06-30,header,2022-08-03,2022Q2,2022Q2,False,ok,UNH_10Q_2022Q2_2022-08-03_full.txt
+UNH,Healthcare,Managed care,10-Q,2022,Q3,Q3 FY2022,2022-09-30,header,2022-11-02,2022Q3,2022Q3,False,ok,UNH_10Q_2022Q3_2022-11-02_full.txt
+UNH,Healthcare,Managed care,10-K,2022,FY,FY2022,2022-12-31,header,2023-02-24,2022Q4,2022FY,False,ok,UNH_10K_2022Q4_2023-02-24_full.txt
+UNH,Healthcare,Managed care,10-Q,2023,Q1,Q1 FY2023,2023-03-31,header,2023-05-03,2023Q1,2023Q1,False,ok,UNH_10Q_2023Q1_2023-05-03_full.txt
+UNH,Healthcare,Managed care,10-Q,2023,Q2,Q2 FY2023,2023-06-30,header,2023-08-02,2023Q2,2023Q2,False,ok,UNH_10Q_2023Q2_2023-08-02_full.txt
+UNH,Healthcare,Managed care,10-Q,2023,Q3,Q3 FY2023,2023-09-30,header,2023-11-06,2023Q3,2023Q3,False,ok,UNH_10Q_2023Q3_2023-11-06_full.txt
+UNH,Healthcare,Managed care,10-K,2023,FY,FY2023,2023-12-31,header,2024-02-28,2023Q4,2023FY,False,ok,UNH_10K_2023Q4_2024-02-28_full.txt
+UNH,Healthcare,Managed care,10-Q,2024,Q1,Q1 FY2024,2024-03-31,header,2024-05-09,2024Q1,2024Q1,False,ok,UNH_10Q_2024Q1_2024-05-09_full.txt
+UNH,Healthcare,Managed care,10-Q,2024,Q2,Q2 FY2024,2024-06-30,header,2024-08-09,2024Q2,2024Q2,False,ok,UNH_10Q_2024Q2_2024-08-09_full.txt
+UNH,Healthcare,Managed care,10-Q,2024,Q3,Q3 FY2024,2024-09-30,header,2024-11-04,2024Q3,2024Q3,False,ok,UNH_10Q_2024Q3_2024-11-04_full.txt
+UNH,Healthcare,Managed care,10-K,2024,FY,FY2024,2024-12-31,url,2025-02-27,,2024FY,False,ok,UNH_10K_2025-02-27_full.txt
+UNH,Healthcare,Managed care,10-Q,2025,Q1,Q1 FY2025,2025-03-31,header,2025-05-07,2025Q1,2025Q1,False,ok,UNH_10Q_2025Q1_2025-05-07_full.txt
+UNH,Healthcare,Managed care,10-Q,2025,Q2,Q2 FY2025,2025-06-30,header,2025-08-11,2025Q2,2025Q2,False,ok,UNH_10Q_2025Q2_2025-08-11_full.txt
+UNH,Healthcare,Managed care,10-Q,2025,Q3,Q3 FY2025,2025-09-30,header,2025-10-28,2025Q3,2025Q3,False,ok,UNH_10Q_2025Q3_2025-10-28_full.txt
+UPS,Industrials,Logistics,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-17,,2025FY,False,ok,UPS_10K_2026-02-17_full.txt
+V,Financials,Payments,10-K,2025,FY,FY2025,2025-09-30,url,2025-11-06,,2025FY,False,ok,V_10K_2025-11-06_full.txt
+VZ,Communication Services,Telecommunications,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-17,,2025FY,False,ok,VZ_10K_2026-02-17_full.txt
+WMT,Consumer Staples,General merchandise retail,10-K,2025,FY,FY2025,2025-01-31,url,2025-03-14,,2025FY,False,ok,WMT_10K_2025-03-14_full.txt
+XOM,Energy,Integrated oil and gas,10-Q,2022,Q1,Q1 FY2022,2022-03-31,header,2022-05-04,2022Q1,2022Q1,False,ok,XOM_10Q_2022Q1_2022-05-04_full.txt
+XOM,Energy,Integrated oil and gas,10-Q,2022,Q2,Q2 FY2022,2022-06-30,header,2022-08-03,2022Q2,2022Q2,False,ok,XOM_10Q_2022Q2_2022-08-03_full.txt
+XOM,Energy,Integrated oil and gas,10-Q,2022,Q3,Q3 FY2022,2022-09-30,header,2022-11-02,2022Q3,2022Q3,False,ok,XOM_10Q_2022Q3_2022-11-02_full.txt
+XOM,Energy,Integrated oil and gas,10-K,2022,FY,FY2022,2022-12-31,header,2023-02-22,2022Q4,,False,ok,XOM_10K_2022Q4_2023-02-22_full.txt
+XOM,Energy,Integrated oil and gas,10-Q,2023,Q1,Q1 FY2023,2023-03-31,header,2023-05-02,2023Q1,2023Q1,False,ok,XOM_10Q_2023Q1_2023-05-02_full.txt
+XOM,Energy,Integrated oil and gas,10-Q,2023,Q2,Q2 FY2023,2023-06-30,header,2023-08-01,2023Q2,2023Q2,False,ok,XOM_10Q_2023Q2_2023-08-01_full.txt
+XOM,Energy,Integrated oil and gas,10-Q,2023,Q3,Q3 FY2023,2023-09-30,header,2023-10-31,2023Q3,2023Q3,False,ok,XOM_10Q_2023Q3_2023-10-31_full.txt
+XOM,Energy,Integrated oil and gas,10-K,2023,FY,FY2023,2023-12-31,header,2024-02-28,2023Q4,,False,ok,XOM_10K_2023Q4_2024-02-28_full.txt
+XOM,Energy,Integrated oil and gas,10-Q,2024,Q1,Q1 FY2024,2024-03-31,header,2024-04-29,2024Q1,2024Q1,False,ok,XOM_10Q_2024Q1_2024-04-29_full.txt
+XOM,Energy,Integrated oil and gas,10-Q,2024,Q2,Q2 FY2024,2024-06-30,header,2024-08-05,2024Q2,2024Q2,False,ok,XOM_10Q_2024Q2_2024-08-05_full.txt
+XOM,Energy,Integrated oil and gas,10-Q,2024,Q3,Q3 FY2024,2024-09-30,header,2024-11-04,2024Q3,2024Q3,False,ok,XOM_10Q_2024Q3_2024-11-04_full.txt
+XOM,Energy,Integrated oil and gas,10-K,2024,FY,FY2024,2024-12-31,header,2025-02-19,2024Q4,,False,ok,XOM_10K_2024Q4_2025-02-19_full.txt
+XOM,Energy,Integrated oil and gas,10-Q,2025,Q1,Q1 FY2025,2025-03-31,header,2025-05-05,2025Q1,2025Q1,False,ok,XOM_10Q_2025Q1_2025-05-05_full.txt
+XOM,Energy,Integrated oil and gas,10-Q,2025,Q2,Q2 FY2025,2025-06-30,header,2025-08-04,2025Q2,2025Q2,False,ok,XOM_10Q_2025Q2_2025-08-04_full.txt
+XOM,Energy,Integrated oil and gas,10-Q,2025,Q3,Q3 FY2025,2025-09-30,header,2025-11-03,2025Q3,2025Q3,False,ok,XOM_10Q_2025Q3_2025-11-03_full.txt
+XOM,Energy,Integrated oil and gas,10-K,2025,FY,FY2025,2025-12-31,url,2026-02-18,,,False,ok,XOM_10K_2026-02-18_full.txt

@@ -1,0 +1,10 @@
+chromadb
+rank_bm25
+tiktoken
+openai
+streamlit
+python-dotenv
+pytest
+cohere
+sentence-transformers
+anthropic
