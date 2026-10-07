@@ -43,6 +43,9 @@ CACHE_DIR = ROOT / "cache"
 JUDGE_PROVIDER = os.getenv("JUDGE_PROVIDER", LLM_PROVIDER)
 JUDGE_MODEL = os.getenv("JUDGE_MODEL") or (LLM_MODEL if JUDGE_PROVIDER == LLM_PROVIDER else DEFAULT_LLM_MODELS[JUDGE_PROVIDER])
 
+# Answering
+ANSWER_MODE = os.getenv("ANSWER_MODE", "single")  # "single": one LLM call per answer; "multi": per-company + compare
+
 # Retrieval
 TOP_K = 20  # per retriever (dense and BM25) before fusion
 RRF_K = 60

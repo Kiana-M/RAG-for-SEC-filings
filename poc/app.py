@@ -29,6 +29,7 @@ if out:
     left, right = st.columns([3, 2])
     with left:
         st.subheader("Answer")
+        st.caption(f"Answer generated in {out['answer_llm_calls']} LLM call(s) from {sum(len(c) for c in out['retrieved'].values())} retrieved excerpts.")
         st.markdown(out["answer"])
     with right:
         st.subheader("Gaps")
@@ -52,6 +53,7 @@ if out:
                        f"{m['sector']} / {m['industry']} · RRF {c['rrf']} (dense #{c['dense_rank']}, BM25 #{c['bm25_rank']})")
             st.text(c["text"])
 
-    with st.expander("Per-company summaries"):
-        for t, s in out["summaries"].items():
-            st.markdown(f"**{t}**\n\n{s}")
+    if out["summaries"]:
+        with st.expander("Per-company summaries"):
+            for t, s in out["summaries"].items():
+                st.markdown(f"**{t}**\n\n{s}")

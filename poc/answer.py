@@ -1,4 +1,7 @@
-"""Per-company summaries with citations, then a comparison answer.
+"""Grounded answers with citations.
+
+ANSWER_MODE=single (default): the answer comes from ONE LLM call over all retrieved excerpts.
+ANSWER_MODE=multi: one summary call per company, then a comparison call.
 
 python answer.py "What are the primary risk factors facing Apple, Tesla, and JPMorgan, and how do they compare?"
 """
@@ -14,6 +17,24 @@ from retrieve import retrieve
 CHUNK_ID_RE = re.compile(r"[A-Z][A-Z.]{0,5}-10-[KQ]-\d{4}-(?:FY|Q[1-4])-[a-z_]+-\d+")
 LABEL_RE = re.compile(r"[A-Z][A-Z.]{0,5}-\d{1,2}")
 BRACKET_RE = re.compile(r"\[([^\[\]]+)\]")
+
+ANSWER_SYSTEM = """You are a financial research analyst. Answer the question for a private equity team using ONLY
+the SEC filing excerpts provided, grouped by company.
+
+Structure:
+1. **Answer**: two to four sentences that answer the question directly.
+2. One section per company, headed "### <Company> (<fiscal label(s) used>)", with concise bullets.
+3. **Comparison**: similarities and differences, when the question involves several companies or periods.
+4. **Gaps**: every known gap listed below, plus anything the question asks that the excerpts do not
+   cover; write "Gaps: none" if there are none.
+
+Rules:
+- End every factual bullet or sentence with the label(s) of the supporting excerpt(s) in square brackets,
+  exactly as shown, e.g. [AAPL-2] or [AAPL-2, AAPL-4]. Use only labels that appear below.
+- Use only facts stated in the excerpts; no outside knowledge. Quote figures exactly as given.
+- Refer to periods by the fiscal label shown with each excerpt (e.g. "Q2 FY2025", "FY2024"); fiscal years
+  differ between companies. Numbers in parentheses in tables are negative.
+- About 300-600 words."""
 
 SUMMARY_SYSTEM = """You answer questions about SEC filings using ONLY the excerpts provided.
 - Every factual sentence ends with the label(s) of the excerpt(s) that support it in square brackets,
@@ -78,6 +99,15 @@ def compare(question, summaries, gaps):
     return llm(prompt, system=COMPARE_SYSTEM)
 
 
+def answer_single(question, results, gaps, companies):
+    """The whole answer in one LLM call: all excerpts, grouped by company, in a single prompt."""
+    blocks = [f"## {companies[t]['name']} ({t})\n\n" + (format_chunks(chunks, t) if chunks else "(no excerpts found)")
+              for t, chunks in results.items()]
+    gap_text = "\n".join(f"- {g}" for g in gaps) or "none"
+    prompt = f"Question: {question}\n\nKnown gaps:\n{gap_text}\n\nExcerpts:\n\n" + "\n\n".join(blocks)
+    return llm(prompt, system=ANSWER_SYSTEM)
+
+
 def extract_citations(text):
     return list(dict.fromkeys(CHUNK_ID_RE.findall(text)))
 
@@ -88,19 +118,23 @@ def answer(question, plan=None):
     ret = retrieve(question, plan)
     results, gaps = ret["results"], list(ret["gaps"])
 
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        futures = {t: pool.submit(summarize, question, t, chunks, companies[t]["name"]) for t, chunks in results.items()}
-        summaries = {t: f.result() for t, f in futures.items()}
-
-    if ret["plan"]["needs_comparison"] and len(summaries) > 1:
-        final = compare(question, summaries, gaps)
-    elif summaries:
-        final = "\n\n".join(summaries.values())
-        if gaps:
-            final += "\n\nGaps:\n" + "\n".join(f"- {g}" for g in gaps)
-    else:  # nothing in the corpus matches the question
+    summaries, calls = {}, 0
+    if not any(results.values()):  # nothing in the corpus matches: no LLM call
         final = "The corpus has no filings that can answer this question.\n\nGaps:\n" + \
                 "\n".join(f"- {g}" for g in gaps or ["no matching companies"])
+    elif config.ANSWER_MODE == "single":
+        final, calls = answer_single(question, results, gaps, companies), 1
+    else:
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            futures = {t: pool.submit(summarize, question, t, chunks, companies[t]["name"]) for t, chunks in results.items()}
+            summaries = {t: f.result() for t, f in futures.items()}
+        calls = sum(1 for c in results.values() if c)
+        if ret["plan"]["needs_comparison"] and len(summaries) > 1:
+            final, calls = compare(question, summaries, gaps), calls + 1
+        else:
+            final = "\n\n".join(summaries.values())
+            if gaps:
+                final += "\n\nGaps:\n" + "\n".join(f"- {g}" for g in gaps)
 
     labels = label_chunks(results)
     final, bad = resolve_labels(final, labels)
@@ -119,6 +153,7 @@ def answer(question, plan=None):
         "plan": ret["plan"],
         "gaps": gaps,
         "notes": ret["notes"],
+        "answer_llm_calls": calls,
     }
 
 
@@ -128,7 +163,8 @@ def main():
     args = ap.parse_args()
     out = answer(args.question)
     print(out["answer"])
-    print("\n---\nPlan tickers:", out["plan"]["tickers"], "| gaps:", out["gaps"] or "none")
+    print("\n---\nPlan tickers:", out["plan"]["tickers"], "| gaps:", out["gaps"] or "none",
+          "| answer LLM calls:", out["answer_llm_calls"])
     print("Citations:")
     for c in out["citations"]:
         m = c["meta"]
